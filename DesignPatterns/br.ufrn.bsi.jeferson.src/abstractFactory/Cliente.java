@@ -7,10 +7,11 @@ public class Cliente {
 		CarroSedan sedan = fabrica.criarCarroSedan();
 		CarroPopular popular = fabrica.criarCarroPopular();
 		
+		System.out.println("--------------------");
 		sedan.exibirinfoSedan();
 		System.out.println();
 		popular.exibirinfoPopular();
-		System.out.println();
+		
 
 		System.out.println("--------------------");
 		fabrica = new FordFactory();
